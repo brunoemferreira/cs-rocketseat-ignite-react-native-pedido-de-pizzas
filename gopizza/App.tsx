@@ -6,7 +6,6 @@ import StatusBar from 'expo-status-bar/build/ExpoStatusBar';
 
 import { ThemeProvider } from 'styled-components/native';
 
-
 import theme from './src/theme';
 
 import { SignIn } from './src/screens/SignIn';
