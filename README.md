@@ -9,6 +9,7 @@
 * [Fonte dm-sans]()
 * [Fonte dm-serif-display]()
 * [Expo App Loading]()
+* [Expo Linear Gradient]()
 * [Styled Components]()
 * [React Native Firebase]()
   * [React Native Firebase - Firestore]() 
