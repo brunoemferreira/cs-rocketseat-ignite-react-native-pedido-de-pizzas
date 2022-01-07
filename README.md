@@ -9,3 +9,4 @@
 * [Fonte dm-sans]()
 * [Fonte dm-serif-display]()
 * [Expo App Loading]()
+* [Styled Components]()
