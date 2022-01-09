@@ -11,6 +11,8 @@ import { Button } from "./../../components/Button";
 
 import { Container, Content, Title, Brand, ForgotPasswordButton, ForgotPasswordLabel } from "./styles";
 
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
 export function SignIn() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -47,13 +49,14 @@ export function SignIn() {
           <ForgotPasswordButton>
             <ForgotPasswordLabel>Esqueci minha senha</ForgotPasswordLabel>
           </ForgotPasswordButton>
-
-          <Button
-            title="Entrar"
-            type="secondary"
-            onPress={handleSignIn}
-            isLoading={isLogging}
-          />
+          <GestureHandlerRootView>
+            <Button
+              title="Entrar"
+              type="secondary"
+              onPress={handleSignIn}
+              isLoading={isLogging}
+            />
+          </GestureHandlerRootView>
         </Content>
       </KeyboardAvoidingView>
     </Container>
