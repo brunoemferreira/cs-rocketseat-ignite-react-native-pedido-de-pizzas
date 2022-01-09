@@ -15,3 +15,16 @@
   * [React Native Firebase - Firestore]() 
   * [React Native Firebase - Auth]() 
   * [React Native Firebase - Storage]() 
+
+
+
+
+
+
+
+### Configuraçoes 
+
+> Para executar a aplicaçao
+```bash
+$ npx react-native run-android
+```
