@@ -1,3 +1,4 @@
+import { Photo } from "./../../components/Photo";
 import React from "react";
 import { Platform, TouchableOpacity } from "react-native";
 
@@ -15,6 +16,7 @@ export function Product() {
           <DeleteLabel>Deletar</DeleteLabel>
         </TouchableOpacity>
       </Header>
+      <Photo uri="" />
     </Container>
   )
 }
