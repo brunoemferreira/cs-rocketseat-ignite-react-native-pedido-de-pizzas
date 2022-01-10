@@ -17,14 +17,13 @@
   * [React Native Firebase - Storage]() 
 
 
-
-
-
-
-
 ### Configuraçoes 
 
 > Para executar a aplicaçao
 ```bash
 $ npx react-native run-android
+```
+
+```bash
+$ cd d:\Repository\GitHub\brunoemferreira\cs-rocketseat-ignite-react-native-pedido-de-pizzas\gopizza
 ```
