@@ -1,8 +1,8 @@
 import { Photo } from "./../../components/Photo";
 import React, { useState } from "react";
 import { Platform, TouchableOpacity } from "react-native";
-import * as ImagePicker from 'expo-image-picker';
 
+import * as ImagePicker from 'expo-image-picker';
 import { ButtonBack } from "./../../components/ButtonBack";
 
 import {
